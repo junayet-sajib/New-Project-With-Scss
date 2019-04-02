@@ -1,0 +1,12 @@
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+body {
+  background: $body-background;
+}
+
+footer {
+  background: $footer-bg;
+}

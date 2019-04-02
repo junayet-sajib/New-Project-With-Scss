@@ -1,0 +1,35 @@
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.search input {
+  text-indent: 30px;
+  width: 600px;
+  border-radius: 36px;
+  height: 80px;
+  border: 1px solid #707070;
+  position: relative;
+
+}
+
+.search input:focus {
+  outline: 0;
+}
+
+.search .fa-search {
+  position: absolute;
+  font-size: 15px;
+}
+
+.search span img {
+  position: absolute;
+  left: 371px;
+  top: 91px;
+  z-index: 1;
+}
