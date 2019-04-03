@@ -28,8 +28,20 @@
   top: 91px;
   z-index: 1; }
 
+.carousel-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
 .carousel-title {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 4rem; }
+
+.carousel-caption {
+  right: 15%;
+  bottom: -1rem;
+  left: 21px;
+  z-index: 10;
+  text-align: left; }
 
 footer {
   background: #DBDBDB; }
@@ -43,19 +55,33 @@ footer {
 .footer-icon {
   display: flex; }
 
+h4.eventot-tittle.carousel-title.disfruta-tittle {
+  margin-bottom: 9rem; }
+
 .disfuta-1st-img {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  top: -47px; }
 
 .disfuta-2nd-img {
   position: absolute;
   top: 0;
   left: 51px;
-  z-index: -3; }
+  z-index: -3;
+  left: 200px; }
 
 .eventot-tittle {
   width: 330px;
   margin: 0 auto;
   background: #F9B233;
   padding: .5rem;
+  margin-top: 5rem;
   border-radius: 24px; }
+
+.carousel-img img {
+  height: 100%;
+  width: 350px; }
+
+.saltate-section-right {
+  margin-top: 7rem;
+  margin-left: 3rem; }
