@@ -1,8 +1,7 @@
-# Jesse Showalter Website Project Starter Kit
 
 This is how I start my project, maybe you can use it too :) This  starter file is a collectiopn of things I have learned over the years, code snippets I have created and other that were collected from other people who are smarter than me to make soimething I really enjoy using.
 
-Check out [The YouTube series to see my process](https://www.youtube.com/watch?v=sr6jDeAoXCc&feature=youtu.be&list=PLrtjkLnNjGHu7QIc8jN7hZmuP6wMby2QZ) for more info.
+
 
 ***
 
