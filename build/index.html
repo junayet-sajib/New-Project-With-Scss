@@ -15,7 +15,7 @@
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-sm navbar-light bg-faded">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#nav-content"
           aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,7 @@
         </a>
 
         <!-- Links -->
-        <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+        <div class="collapse navbar-collapse justify-content-end " id="nav-content">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
@@ -54,7 +54,7 @@
   <section class="search-section">
     <div class="container">
       <div class="row">
-        <div class="search col">
+        <div class="search col col-sm-12">
           <span>
             <img src="./assets/img/calender.png" alt="calender">
           </span>
@@ -65,7 +65,7 @@
     </div>
   </section>
   <!-- Slide Area -->
-  <section class="carousel-section ">
+  <section class="salas-carousel-section d-block">
     <div class="container">
       <h5 class="carousel-title">Salas</h5>
       <div id="firstCarousel" class="carousel slide" data-ride="carousel">
@@ -136,19 +136,19 @@
             </div>
           </div>
         </div>
-
+        <a class="carousel-control-prev" href="#firstCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#firstCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
       <h4 class="eventot-tittle carousel-title">Cargar todos las salas</h4>
     </div>
-    <a class="carousel-control-prev" href="#firstCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#firstCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+
   </section>
   <!-- End Carousel Section -->
 
@@ -229,20 +229,21 @@
           </div>
 
         </div>
+        <a class="carousel-control-prev" href="#secondCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#secondCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
       <!-- End eventot-carousel-section -->
 
 
     </div>
-    <!-- Container -->
-    <a class="carousel-control-prev" href="#secondCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#secondCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <!-- End Container -->
+
   </section>
 
 
@@ -251,17 +252,32 @@
     <h4 class="eventot-tittle carousel-title disfruta-tittle">Cargar todos los eventos</h4>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 ">
+        <div class="col-md-5 col-sm-12">
           <h3 class="tittle-txt disfruta-h3">Disfruta de tus fiestas sin complicaciones</h3>
           <p>Compra entradas para tus fiestas favoritas en unos segundos. Filtra por localización o fecha.
             ¡No te lies!</p>
-        </div>
-        <div class="col-md-5 offset-3">
-          <div class="disfuta-1st-img">
-            <img src="./assets/img/mobile_1.png" alt="Mobile">
+          <div class="play-and-apple-icon d-flex">
+            <div class="play-icon ">
+              <img class="mr-2" src="./assets/img/play.png" alt="Google Play">
+              <p>Disponible en <span>Google play</span>
+              </p>
+            </div>
+            <div class="play-icon apple-icon ">
+              <img src="./assets/img/apple.png" alt="Apple Store">
+              <p>Disponible en el
+                <span> App Store</span></p>
+            </div>
           </div>
-          <div class="disfuta-2nd-img">
-            <img src="./assets/img/mobile_2.png" alt="Mobile">
+        </div>
+
+        <div class="col-md-5 col-sm-12 offset-2">
+          <div class="mobile-img">
+            <div class="disfuta-1st-img">
+              <img src="./assets/img/mobile_1.png" alt="Mobile">
+            </div>
+            <div class="disfuta-2nd-img">
+              <img src="./assets/img/mobile_2.png" alt="Mobile">
+            </div>
           </div>
         </div>
       </div>
@@ -276,8 +292,8 @@
           </div>
 
         </div>
-        <div class="col-md-4 ">
-          <div class="saltate-section-right">
+        <div class="col-md-4 offset-2-md ">
+          <div class="saltate-section-right justify-content-middle">
             <h3>Sáltate las filas</h3>
             <p>¡Sí!, has leido bien, con el código QR que se te facilitará te evitarás esas molestas filas simplemente
               enseñando tu móvil en la puerta.</p>
@@ -288,52 +304,70 @@
       </div>
     </div>
   </section>
-  <footer>
+  <footer class="">
     <div class="container">
 
       <div class="footer-items">
-        <div class="row">
-          <div class="col-md-2">
-            <h6 class="footer-h4">Nyxell desde cerca</h6>
-            <ul>
-              <li>Blog</li>
-              <li>Sobre nosotros </li>
-            </ul>
-          </div>
-          <div class="col-md-3 ">
-            <h6 class="footer-h4">Estamos a tu disposición</h6>
-            <ul>
-              <li>Contacto</li>
-              <li>¿Quiéres ser embajador?</li>
-              <li>Empresas</li>
-            </ul>
-          </div>
-          <div class="col-md-1 offset-1 ">
-            <h6 class="footer-h4"> Síguenos</h6>
-            <ul>
-              <li>Instagram</li>
-              <li>Facebook</li>
-              <li>Twitter</li>
-            </ul>
-          </div>
-          <div class="col-md-4 offset-1">
-            <div class="footer-icon">
-              <div class="play-icon">
-                <img src="./assets/img/play.png" alt="Google Play">
-                <p>Disponible en
-                  Google play</p>
-              </div>
-              <div class="apple-icon">
-                <img src="./assets/img/apple.png" alt="Apple Store">
-                <p>Disponible en el
-                  App Store</p>
+        <div class="footer-items-main">
+          <div class="row">
+            <div class="col-md-2">
+              <h6 class="footer-h4">Nyxell desde cerca</h6>
+              <ul>
+                <li>Blog</li>
+                <li>Sobre nosotros </li>
+              </ul>
+            </div>
+            <div class="col-md-3 ">
+              <h6 class="footer-h4">Estamos a tu disposición</h6>
+              <ul>
+                <li>Contacto</li>
+                <li>¿Quiéres ser embajador?</li>
+                <li>Empresas</li>
+              </ul>
+            </div>
+            <div class="col-md-1 ">
+              <h6 class="footer-h4"> Síguenos</h6>
+              <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+              </ul>
+            </div>
+            <div class="col-md-5  offset-1-md">
+              <div class="play-and-apple-icon d-flex">
+                <div class="play-icon ">
+                  <img class="mr-2" src="./assets/img/play.png" alt="Google Play">
+                  <p>Disponible en <span>Google play</span>
+                  </p>
+                </div>
+                <div class="play-icon apple-icon ">
+                  <img src="./assets/img/apple.png" alt="Apple Store">
+                  <p>Disponible en el
+                    <span> App Store</span></p>
+                </div>
               </div>
             </div>
+
           </div>
         </div>
-        <p>Para más información no dudes en contactar con nuestro equipo en la dirección de correo
+        <p class="footer-contact-text">Para más información no dudes en contactar con
+          nuestro equipo
+          en la
+          dirección de
+          correo
           <span>contacto@nyxell.com</span></p>
+        <div class="footer-bottom-text d-flex">
+          <div class="footer-bottom-text-left ">
+            <p>Copyright © 2018 Nyxell | Desarrollado por Memorándum
+            </p>
+          </div>
+          <div class="footer-bottom-text-right ">
+            <p>Políticas de privacidad | Términos legales
+            </p>
+          </div>
+        </div>
       </div>
+
     </div>
   </footer>
   <script src="./assets/js/bootstrap.min.js"></script>
