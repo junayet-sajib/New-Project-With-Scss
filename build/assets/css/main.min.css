@@ -30,9 +30,22 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 505px;
+  left: 627px;
   top: 77px;
   z-index: 2; }
+
+span.search-img-3 {
+  left: 773px;
+  background: #F9B233; }
+
+span.search-img-3 img {
+  margin-top: .4rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: .14rem; }
+
+span.search-img-2 {
+  left: 700px; }
 
 .search span img {
   position: absolute;
@@ -42,6 +55,7 @@
 
 .salas-carousel-section {
   margin-top: 5rem;
+  position: relative;
   margin-bottom: 5rem; }
 
 .carousel-title {
@@ -54,6 +68,16 @@
   left: 21px;
   z-index: 10;
   text-align: left; }
+
+a.carousel-control-prev {
+  position: absolute; }
+
+a.carousel-control-next {
+  position: absolute; }
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: #000; }
 
 footer {
   background: #DBDBDB; }
@@ -95,9 +119,6 @@ footer {
 .play-icon.apple-icon p {
   font-size: 18px; }
 
-.footer-bottom-text-left {
-  margin-right: 24rem; }
-
 p.footer-contact-text {
   margin-top: 2.5rem;
   margin-bottom: 2rem; }
@@ -117,9 +138,8 @@ h4.eventot-tittle.carousel-title.disfruta-tittle {
 .disfuta-2nd-img {
   position: absolute;
   top: 0;
-  left: 51px;
-  z-index: -3;
-  left: 200px; }
+  left: 160px;
+  z-index: -3; }
 
 .eventot-tittle {
   width: 330px;
@@ -128,6 +148,9 @@ h4.eventot-tittle.carousel-title.disfruta-tittle {
   padding: .5rem;
   margin-top: 5rem;
   border-radius: 24px; }
+
+section.eventot-section {
+  position: relative; }
 
 .carousel-img img {
   height: 100%;
@@ -148,9 +171,30 @@ h4.eventot-tittle.carousel-title.disfruta-tittle {
     font-size: 20px; }
   .saltate-section-right {
     margin: 0 auto;
-    text-align: center; } }
+    text-align: center; }
+  .disfuta-1st-img {
+    left: -67px; }
+  .disfuta-2nd-img {
+    left: 42px;
+    top: 96px; } }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel-img img {
+    height: 100%;
+    width: 200px; } }
+
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel-img img {
+    height: 100%;
+    width: 300px;
+    margin-right: 15px; } }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel-img img {
+    height: 100%;
+    width: 350px;
+    margin-right: 15px; } }

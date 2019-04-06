@@ -1,5 +1,6 @@
 .salas-carousel-section {
   margin-top: 5rem;
+  position: relative;
   margin-bottom: 5rem;
 }
 
@@ -16,4 +17,20 @@
   left: 21px;
   z-index: 10;
   text-align: left;
+}
+
+a.carousel-control-prev {
+  position: absolute;
+}
+
+a.carousel-control-next {
+  position: absolute;
+}
+
+
+.carousel-control-prev-icon {}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: #000;
 }

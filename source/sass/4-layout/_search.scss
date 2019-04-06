@@ -35,9 +35,27 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 505px;
+  left: 627px;
   top: 77px;
   z-index: 2;
+}
+
+span.search-img-3 {
+  left: 773px;
+  background: #F9B233;
+}
+
+span.search-img-3 img {
+  margin-top: .4rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: .14rem;
+}
+
+span.search-img-1 {}
+
+span.search-img-2 {
+  left: 700px;
 }
 
 .search span img {
