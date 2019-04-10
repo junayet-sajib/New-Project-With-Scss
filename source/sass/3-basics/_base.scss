@@ -1,12 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,600");
+
+$montserrat-stack: "Montserrat",
+sans-serif;
+
 textarea:focus,
 input:focus {
   outline: none;
 }
 
-body {
-  background: $body-background;
+@font-face {
+  font-family: volterounded;
+  src: url();
 }
 
-footer {
-  background: $footer-bg;
+body {
+  font-family: $montserrat-stack;
 }
+
+a {
+  color: #000;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+footer {}

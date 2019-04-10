@@ -28,9 +28,54 @@
         top: 96px;
     }
 
+    h3.tittle-txt.disfruta-h3 {
+        text-align: center;
+    }
+
     .disfuta-2nd-img img {}
 
-    .footer-bottom-text {}
+    .play-and-apple-icon .play-icon {
+        font-size: 15px;
+    }
+
+    .play-and-apple-icon .play-icon a p span {
+        font-size: 19px;
+    }
+
+    .footer-items-main {
+        text-align: center;
+    }
+
+    .footer-items-main div {
+        margin-top: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .footer-items-main div h4 {
+        font-size: 1.1rem;
+    }
+
+    .search span {
+        width: 12%;
+        height: 50px;
+    }
+
+    .search span.search-img-1 {
+        left: 223px;
+    }
+
+    .search span.search-img-2 {
+        left: 280px;
+    }
+
+    .search span.search-img-3 {
+        left: 335px;
+    }
+
+    .search span img {
+        height: 25px;
+        width: 25px;
+    }
 }
 
 
@@ -38,10 +83,34 @@
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .carousel-img img {
         height: 100%;
         width: 200px;
+    }
+
+    .play-and-apple-icon .play-icon {
+        font-size: 15px;
+    }
+
+    .play-and-apple-icon .play-icon a p span {
+        font-size: 19px;
+    }
+
+    .search span {
+        width: 8%;
+    }
+
+    .search span.search-img-1 {
+        left: 436px;
+    }
+
+    .search span.search-img-2 {
+        left: 510px;
+    }
+
+    .search span.search-img-3 {
+        left: 582px;
     }
 }
 
@@ -52,6 +121,17 @@
         width: 300px;
         margin-right: 15px;
     }
+
+    .search span {}
+
+    .search span.search-img-1 {}
+
+    .search span.search-img-2 {}
+
+    .search span.search-img-3 {}
+
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

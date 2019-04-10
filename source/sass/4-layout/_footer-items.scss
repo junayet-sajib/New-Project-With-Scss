@@ -6,16 +6,32 @@ footer {
 
 .footer-items-main {
   padding-top: 3rem;
+
+  ul li a {
+    color: #818181;
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+  h5 {
+    color: #3C3C3C;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .play-and-apple-icon {
+    margin: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0;
+  }
 }
 
-.footer-items ul,
-.footer-items li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.footer-icon {
+.footer-items-main .footer-items-main .footer-icon {
   display: flex;
 }
 
@@ -28,23 +44,35 @@ footer {
     height: 6rem;
     border-radius: 25px;
     padding: .9rem;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 300;
     margin-right: .5rem;
     box-shadow: 3px 3px 6px #000;
 
-    img {
-      height: 70%;
-      align-items: center;
-      justify-content: center;
+    a {
       display: flex;
-      width: 25%;
-      margin-top: 11px;
-      margin-right: 5px;
+      color: #fff;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      img {
+        height: 70%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 25%;
+        margin-top: 11px;
+        margin-right: 5px;
+      }
+
+      p span {
+        font-size: 22px;
+        font-weight: 600;
+      }
     }
 
-    p span {
-      font-size: 26px;
-    }
   }
 }
 

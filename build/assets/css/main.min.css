@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,600");
+textarea:focus,
+input:focus {
+  outline: none; }
+
+@font-face {
+  font-family: volterounded;
+  src: url(); }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+a {
+  color: #000; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
+
+.nav-link {
+  font-weight: 500; }
+
 .search {
   position: relative;
   display: flex;
@@ -6,52 +27,36 @@
   padding-top: 4rem;
   margin: 0 auto;
   padding-bottom: 2rem; }
-
-.search input {
-  text-indent: 30px;
-  width: 600px;
-  border-radius: 36px;
-  height: 80px;
-  border: 1px solid #707070;
-  position: relative; }
-
-.search input:focus {
-  outline: 0; }
-
-.search .fa-search {
-  position: absolute;
-  font-size: 15px; }
-
-.search span {
-  background: #72BDAD;
-  border-radius: 58px;
-  height: 58px;
-  width: 5%;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 627px;
-  top: 77px;
-  z-index: 2; }
-
-span.search-img-3 {
-  left: 773px;
-  background: #F9B233; }
-
-span.search-img-3 img {
-  margin-top: .4rem;
-  align-items: center;
-  justify-content: center;
-  margin-left: .14rem; }
-
-span.search-img-2 {
-  left: 700px; }
-
-.search span img {
-  position: absolute;
-  left: 0;
-  left: 12px;
-  top: 8px; }
+  .search input {
+    text-indent: 30px;
+    width: 600px;
+    border-radius: 36px;
+    height: 80px;
+    border: 1px solid #707070;
+    position: relative; }
+  .search input:focus {
+    outline: 0; }
+  .search span {
+    background: #72BDAD;
+    border-radius: 58px;
+    height: 58px;
+    width: 5%;
+    position: absolute;
+    left: 627px;
+    top: 77px;
+    z-index: 2; }
+    .search span.search-img-2 {
+      left: 700px; }
+    .search span.search-img-3 {
+      left: 773px;
+      background: #F9B233; }
+    .search span img {
+      position: absolute;
+      left: 0;
+      left: 13px;
+      top: 13px;
+      height: 32px;
+      width: 32px; }
 
 .salas-carousel-section {
   margin-top: 5rem;
@@ -84,14 +89,23 @@ footer {
 
 .footer-items-main {
   padding-top: 3rem; }
+  .footer-items-main ul li a {
+    color: #818181;
+    font-weight: 300;
+    font-size: 13px; }
+  .footer-items-main h5 {
+    color: #3C3C3C;
+    font-size: 15px;
+    font-weight: 500; }
+  .footer-items-main .play-and-apple-icon {
+    margin: 0; }
+  .footer-items-main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0; }
 
-.footer-items ul,
-.footer-items li {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.footer-icon {
+.footer-items-main .footer-items-main .footer-icon {
   display: flex; }
 
 .play-and-apple-icon {
@@ -102,19 +116,26 @@ footer {
     height: 6rem;
     border-radius: 25px;
     padding: .9rem;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 300;
     margin-right: .5rem;
     box-shadow: 3px 3px 6px #000; }
-    .play-and-apple-icon .play-icon img {
-      height: 70%;
-      align-items: center;
-      justify-content: center;
+    .play-and-apple-icon .play-icon a {
       display: flex;
-      width: 25%;
-      margin-top: 11px;
-      margin-right: 5px; }
-    .play-and-apple-icon .play-icon p span {
-      font-size: 26px; }
+      color: #fff; }
+      .play-and-apple-icon .play-icon a:hover {
+        text-decoration: none; }
+      .play-and-apple-icon .play-icon a img {
+        height: 70%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 25%;
+        margin-top: 11px;
+        margin-right: 5px; }
+      .play-and-apple-icon .play-icon a p span {
+        font-size: 22px;
+        font-weight: 600; }
 
 .play-icon.apple-icon p {
   font-size: 18px; }
@@ -141,6 +162,9 @@ h4.eventot-tittle.carousel-title.disfruta-tittle {
   left: 160px;
   z-index: -3; }
 
+h3.tittle-txt.disfruta-h3 {
+  font-weight: 600; }
+
 .eventot-tittle {
   width: 330px;
   margin: 0 auto;
@@ -157,8 +181,11 @@ section.eventot-section {
   width: 350px; }
 
 .saltate-section-right {
-  margin-top: 7rem;
-  margin-left: 3rem; }
+  margin-top: 7rem; }
+  .saltate-section-right h3 {
+    font-weight: 600; }
+  .saltate-section-right p {
+    font-weight: 300; }
 
 @media only screen and (max-width: 600px) {
   .mobile-img {
@@ -176,14 +203,51 @@ section.eventot-section {
     left: -67px; }
   .disfuta-2nd-img {
     left: 42px;
-    top: 96px; } }
+    top: 96px; }
+  h3.tittle-txt.disfruta-h3 {
+    text-align: center; }
+  .play-and-apple-icon .play-icon {
+    font-size: 15px; }
+  .play-and-apple-icon .play-icon a p span {
+    font-size: 19px; }
+  .footer-items-main {
+    text-align: center; }
+  .footer-items-main div {
+    margin-top: 1.5rem;
+    font-size: 1.1rem; }
+  .footer-items-main div h4 {
+    font-size: 1.1rem; }
+  .search span {
+    width: 12%;
+    height: 50px; }
+  .search span.search-img-1 {
+    left: 223px; }
+  .search span.search-img-2 {
+    left: 280px; }
+  .search span.search-img-3 {
+    left: 335px; }
+  .search span img {
+    height: 25px;
+    width: 25px; } }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .carousel-img img {
     height: 100%;
-    width: 200px; } }
+    width: 200px; }
+  .play-and-apple-icon .play-icon {
+    font-size: 15px; }
+  .play-and-apple-icon .play-icon a p span {
+    font-size: 19px; }
+  .search span {
+    width: 8%; }
+  .search span.search-img-1 {
+    left: 436px; }
+  .search span.search-img-2 {
+    left: 510px; }
+  .search span.search-img-3 {
+    left: 582px; } }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
