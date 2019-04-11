@@ -147,6 +147,8 @@ p.footer-contact-text {
 .footer-bottom-text {
   padding-top: 1.5rem;
   border-top: 1px solid #707070; }
+  .footer-bottom-text span {
+    color: #3b3bfd; }
 
 h4.eventot-tittle.carousel-title.disfruta-tittle {
   margin-bottom: 9rem; }
