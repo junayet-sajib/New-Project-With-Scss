@@ -87,6 +87,8 @@
     .carousel-img img {
         height: 100%;
         width: 200px;
+        margin-right: 0;
+        padding: 0;
     }
 
     .play-and-apple-icon .play-icon {
@@ -112,6 +114,7 @@
     .search span.search-img-3 {
         left: 582px;
     }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

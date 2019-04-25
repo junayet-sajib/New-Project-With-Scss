@@ -1,12 +1,14 @@
-@import './3-basics/base';
-@import './4-layout/nav';
+// All Partial Scss File
+
+@import "./3-basics/base";
+@import "./2-helpers/variables";
+@import "./4-layout/header";
+@import "./4-layout/nav";
 @import "./4-layout/search";
-@import './4-layout/carousel';
-@import './4-layout/header';
-@import './2-helpers/variables';
-@import './4-layout/footer-items';
-@import './4-layout/disfruta';
-@import '../sass/4-layout/eventos';
-@import './5-modules/carousel';
-@import './4-layout/saltate';
-@import './6-responsive/responsive.scss';
+@import "./4-layout/carousel";
+@import "./4-layout/disfruta";
+@import "../sass/4-layout/eventos";
+@import "./5-modules/carousel";
+@import "./4-layout/saltate";
+@import "./4-layout/footer-items";
+@import "./6-responsive/responsive.scss";

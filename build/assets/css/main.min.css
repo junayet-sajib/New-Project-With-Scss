@@ -84,6 +84,78 @@ a.carousel-control-next {
 .carousel-control-prev {
   background: #000; }
 
+h4.eventot-tittle.carousel-title.disfruta-tittle {
+  margin-bottom: 9rem; }
+
+.disfuta-1st-img {
+  position: relative;
+  z-index: 1;
+  top: -47px; }
+
+.disfuta-2nd-img {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  z-index: -3; }
+
+h3.tittle-txt.disfruta-h3 {
+  font-weight: 600; }
+
+.eventot-tittle {
+  width: 330px;
+  margin: 0 auto;
+  background: #F9B233;
+  padding: .5rem;
+  margin-top: 5rem;
+  border-radius: 24px;
+  color: #000; }
+
+section.eventos-section {
+  position: relative; }
+
+h4.bottom-txt.carousel-title {
+  text-align: center;
+  margin: 0 auto 4rem; }
+
+.carousel-img img {
+  height: 100%;
+  width: 350px; }
+
+.carpisel-img img:last-child {
+  border-right: none; }
+
+.carousel-caption-custom h5 {
+  color: #000;
+  font-size: 18px; }
+
+.carousel-caption-custom p {
+  color: #000;
+  font-size: 14px; }
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: none;
+  text-align: center;
+  opacity: unset;
+  width: 20px; }
+
+.eventos-section .carousel-control-prev-icon,
+.eventos-section .carousel-control-next-icon {
+  margin-top: 77px; }
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
+
+.saltate-section-right {
+  margin-top: 7rem; }
+  .saltate-section-right h3 {
+    font-weight: 600; }
+  .saltate-section-right p {
+    font-weight: 300; }
+
 footer {
   background: #DBDBDB; }
 
@@ -150,49 +222,6 @@ p.footer-contact-text {
   .footer-bottom-text span {
     color: #3b3bfd; }
 
-h4.eventot-tittle.carousel-title.disfruta-tittle {
-  margin-bottom: 9rem; }
-
-.disfuta-1st-img {
-  position: relative;
-  z-index: 1;
-  top: -47px; }
-
-.disfuta-2nd-img {
-  position: absolute;
-  top: 0;
-  left: 160px;
-  z-index: -3; }
-
-h3.tittle-txt.disfruta-h3 {
-  font-weight: 600; }
-
-.eventot-tittle {
-  width: 330px;
-  margin: 0 auto;
-  background: #F9B233;
-  padding: .5rem;
-  margin-top: 5rem;
-  border-radius: 24px; }
-
-section.eventos-section {
-  position: relative; }
-
-h4.bottom-txt.carousel-title {
-  text-align: center;
-  margin: 0 auto 4rem; }
-
-.carousel-img img {
-  height: 100%;
-  width: 350px; }
-
-.saltate-section-right {
-  margin-top: 7rem; }
-  .saltate-section-right h3 {
-    font-weight: 600; }
-  .saltate-section-right p {
-    font-weight: 300; }
-
 @media only screen and (max-width: 600px) {
   .mobile-img {
     margin-top: 6rem; }
@@ -241,7 +270,9 @@ h4.bottom-txt.carousel-title {
 @media (min-width: 768px) and (max-width: 991px) {
   .carousel-img img {
     height: 100%;
-    width: 200px; }
+    width: 200px;
+    margin-right: 0;
+    padding: 0; }
   .play-and-apple-icon .play-icon {
     font-size: 15px; }
   .play-and-apple-icon .play-icon a p span {
